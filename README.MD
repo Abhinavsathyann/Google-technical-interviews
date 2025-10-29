@@ -93,3 +93,55 @@ javac ReverseLinkedList.java
 
 java ReverseLinkedList
 
+
+---
+
+## **List of Problems Included**
+
+- Reverse Linked List
+- Array Rotation by K steps
+- Find Two Missing Numbers
+- Detect Cycle in Linked List
+- Snake and Ladder Game Design (OOP)
+- Merge Two Sorted Linked Lists
+- Print Permutations of a String
+- Swap Two Numbers Without Temp Variable
+- Find Pairs with Given Sum
+- Fibonacci Number (Recursive & DP)
+- LRU Cache Implementation
+- Find Third Element from End in Linked List
+- Linked List Intersection Point
+- Move Zeros to Left in Array
+- Merge Overlapping Intervals
+- Find First and Last Index of Element in Sorted Array
+- Add Binary Strings
+- Validate a Mountain Array
+- Generate Power Set of Array
+- Clone a Directed Graph
+
+---
+
+## **Contribution**
+
+Contributions are welcome! If you want to add more problems or improve existing ones:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add new problem solution'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Create a Pull Request
+
+---
+
+## **Contact**
+
+For questions or suggestions:
+- Email: your.email@example.com
+- LinkedIn: https://linkedin.com/in/yourprofile
+- GitHub: https://github.com/your-username
+
+---
+
+## **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
