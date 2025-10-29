@@ -136,12 +136,12 @@ Contributions are welcome! If you want to add more problems or improve existing 
 ## **Contact**
 
 For questions or suggestions:
-- Email: your.email@example.com
-- LinkedIn: https://linkedin.com/in/yourprofile
-- GitHub: https://github.com/your-username
+- Email: Abhinavksathyann@gmail.com
+- LinkedIn: https://linkedin.com/in/abhinavksathyan
+- GitHub: https://github.com/Abhinavsathyann
 
 ---
 
 ## **License**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License 
