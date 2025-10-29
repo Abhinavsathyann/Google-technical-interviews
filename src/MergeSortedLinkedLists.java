@@ -1,17 +1,16 @@
-public class MergeSortedLinkedLists {
-    
-}
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
 public class MergeSortedLinkedLists {
-    // Iteratively merges two sorted linked lists.
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1);
         ListNode current = dummy;
+
         while (l1 != null && l2 != null) {
             if (l1.val <= l2.val) {
                 current.next = l1;
@@ -22,11 +21,13 @@ public class MergeSortedLinkedLists {
             }
             current = current.next;
         }
+        // Append remaining nodes
         current.next = (l1 != null) ? l1 : l2;
+
         return dummy.next;
     }
 
-    // Utility to print linked list.
+    // Utility method to print a linked list
     public static void printList(ListNode node) {
         while (node != null) {
             System.out.print(node.val + " ");
@@ -35,6 +36,7 @@ public class MergeSortedLinkedLists {
         System.out.println();
     }
 
+    // Example usage
     public static void main(String[] args) {
         ListNode head1 = new ListNode(1);
         head1.next = new ListNode(3);
@@ -44,7 +46,7 @@ public class MergeSortedLinkedLists {
         head2.next = new ListNode(4);
         head2.next.next = new ListNode(6);
 
-        ListNode merged = mergeTwoLists(head1, head2);
-        printList(merged); // Output: 1 2 3 4 5 6
+        ListNode mergedHead = mergeTwoLists(head1, head2);
+        printList(mergedHead);  // Output: 1 2 3 4 5 6
     }
 }
