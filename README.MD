@@ -1,3 +1,11 @@
+# **Google Java Interview Questions**
+
+A curated collection of Java coding problems frequently asked in Google technical interviews. This repository contains clean, well-explained solutions to classic algorithm and data structure challenges, aimed at helping software engineers prepare thoroughly for coding interviews.
+
+---
+
+## **Project Structure**
+
 google-java-interview-questions/
 │
 ├── src/
