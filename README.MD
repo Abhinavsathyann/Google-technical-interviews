@@ -80,4 +80,11 @@ This repository serves as a comprehensive guide to tackling Google’s top Java 
 ### **How to Run**
 
 1. Clone the repository to your local machine:
+https://github.com/abhinavsathyann/google-java-interview-questions.git
 
+2. Navigate to the `src` directory:
+cd google-java-interview-questions/src
+
+3. Compile and run any Java file. For example:
+javac ReverseLinkedList.java
+java ReverseLinkedList
