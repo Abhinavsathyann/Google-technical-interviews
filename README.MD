@@ -50,4 +50,34 @@ google-java-interview-questions/
 
 │   └── CloneGraph.java
 │
+
 └── README.md
+
+
+---
+
+## **About The Project**
+
+This repository serves as a comprehensive guide to tackling Google’s top Java coding interview questions. Each source file includes a standalone Java class that implements a popular interview problem, demonstrating best practices in problem-solving, algorithm design, and clean coding.
+
+---
+
+## **Technologies Used**
+
+- Java SE (Standard Edition)
+- Core Java concepts including Collections, Recursion, Dynamic Programming, LinkedLists, Arrays, and Graphs
+- No external dependencies, all problems use standard Java library
+
+---
+
+## **Getting Started**
+
+### **Prerequisites**
+
+- Java Development Kit (JDK) 8 or higher
+- An IDE or text editor such as IntelliJ IDEA, Eclipse, or VS Code configured for Java development
+
+### **How to Run**
+
+1. Clone the repository to your local machine:
+
